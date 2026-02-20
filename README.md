@@ -2,7 +2,7 @@
 
 This doesn't do much, it just takes the upstream `yt-dlp` repository
 and replaces `ceskatelevize.py` extractor with the one developed
-y @peci1 ([https://github.com/peci1/yt-dlp](peci1/yt-dlp)).
+by [Martin Pecka/@peci1](https://github.com/peci1/) ([https://github.com/peci1/yt-dlp](peci1/yt-dlp)).
 
 Then it sets some options I consider useful when downloading from iVysilani,
 but feel free to change them to your liking.
