@@ -3,7 +3,7 @@ FROM docker.io/python:3.12-slim
 
 # Copy 'uv' from the official image for incredibly fast package installation
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
-COPY --from=mwader/static-ffmpeg:8.0.1 /ffmpeg /bin/
+COPY --from=docker.io/mwader/static-ffmpeg:8.0.1 /ffmpeg /bin/
 
 VOLUME ["/download"]
 
